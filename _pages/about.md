@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 7G8A1007.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>leo.zhang@stx.ox.ac.uk<\p>
