@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year DPhil student in the Department of Statistics (StatMl CDT) at the University of Oxford. My current research interests include developing new methods for efficently adapting LLMs and applications of geometry within machine learning (e.g. deep generative models for manifold-valued data and geometric deep learning). I am supervised by Yee Whye Teh.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I obtained my BSc in Mathematics at Imperial College London and my MSc in Statistical Science at the University of Oxford, where my master's thesis: "Variational Inference for Bayesian Nonparametric Manifold Learning" was supervised by Judith Rousseau and Paul Rosa.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you have any questions or wish to discuss research, feel free to send me an email!
