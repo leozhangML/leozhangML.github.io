@@ -13,7 +13,7 @@ This is an excert from my master's thesis, for which the code can be found [here
     </div>
 </div>
 <div class="caption">
-    Figure 1: (Left) Plot of the 3D spiral (1,000 points with $$\delta=0.1$$) dataset from Berenfeld et al. [2022].  (Right) Plot of 1,000 points sampled from the posterior predictive distribution given by our learned variational approximation.
+    Figure 1: (Left) Plot of the 3D spiral (1,000 points with $\delta=0.1$) dataset from Berenfeld et al. [2022].  (Right) Plot of 1,000 points sampled from the posterior predictive distribution given by our learned variational approximation.
 </div>
 
 The manifold hypothesis states that naturally generated, high-dimensional data, such as images or neural activity, should be expected to lie around some low-dimensional manifold.  This has been justified by the fact that natural data is generated under physical constraints which limit its intrinsic complexity. The success of machine learning methods, such as neural networks, on high-dimensional data can thus be explained by their ability to exploit this latent, low-dimensional structure.
@@ -29,6 +29,7 @@ The recent paper Berenfeld et al. [2022] overcomes these limitation through intr
 This motivates the main contributions of this dissertation.  We present a variational inference algorithm to provide approximate Bayesian inference for Berenfeld et al. [2022] - see Figure 1. This allows us to scale such methods to higher-dimensional datasets, for which we empirically observe only a slight drop in accuracy. We also attempt to give theoretical guarantees for the convergence rate of an oracle variational approximation to the true parameters, in order to provide justification for the use of variational inference.  We note that while we were unable to finish the proof before the dissertation deadline, our proof only requires one final technical step.
 
 ### References:
+
 
 Bengio, Y., Courville, A. and Vincent, P., 2013. Representation learning: A review and new perspectives. *IEEE transactions on pattern analysis and machine intelligence, 35*(8), pp.1798-1828.
 
