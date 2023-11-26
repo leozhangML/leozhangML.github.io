@@ -5,6 +5,7 @@ date:   2023-11-26 16:40:16
 description: description of my master's thesis
 ---
 
+This is an excert from my master's thesis, for which the code can be found [here](https://github.com/leozhangML/manifold_vi).
 
 The manifold hypothesis states that naturally generated, high-dimensional data, such as images or neural activity, should be expected to lie around some low-dimensional manifold.  This has been justified by the fact that natural data is generated under physical constraints which limit its intrinsic complexity. The success of machine learning methods, such as neural networks, on high-dimensional data can thus be explained by their ability to exploit this latent, low-dimensional structure.
 
@@ -16,7 +17,7 @@ In this dissertation, however, we are interested in the Bayesian nonparametric a
 
 The recent paper Berenfeld et al. [2022] overcomes these limitation through introducing a new family of Dirichlet process mixtures, for which they show very good empirical performance.  Theoretical guarantees are also provided to show that such mixtures are able to converge to the "true" distribution of the data.  Along with the interpretability of such methods compared to black-box deep generative models, this provides a compelling solution to density estimation under the manifold hypothesis.  The main drawback, however,is that inference - through MCMC sampling - is computationally expensive and fails to scale to datasets with dimension greater than two. This prevents the use of such methods beyond toy examples.
 
-This motivates the main contributions of this dissertation.  We present a variational inference algorithm to provide approximate Bayesian inference for Berenfeld et al. [2022]. This allows us to scale such methods to high-dimensional datasets, for which we empirically observe only a slight drop in accuracy. We also attempt to give theoretical guarantees for the convergence rate of an oracle variational approximation to the true parameters, in order to provide justification for the use of variational inference.  We note that while we were unable to finish the proof before the dissertation deadline, our proof only requires one final technical step.
+This motivates the main contributions of this dissertation.  We present a variational inference algorithm to provide approximate Bayesian inference for Berenfeld et al. [2022]. This allows us to scale such methods to higher-dimensional datasets, for which we empirically observe only a slight drop in accuracy. We also attempt to give theoretical guarantees for the convergence rate of an oracle variational approximation to the true parameters, in order to provide justification for the use of variational inference.  We note that while we were unable to finish the proof before the dissertation deadline, our proof only requires one final technical step.
 
 ### References:
 
