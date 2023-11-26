@@ -20,6 +20,6 @@ I am a first-year DPhil student in the Department of Statistics (StatML CDT) at 
 
 My current research interests include developing meta-learning methods for efficently adapting LLMs and applications of geometry within machine learning (e.g. deep generative models for manifold-valued data and geometric deep learning).
 
-Previously, I obtained my BSc in Mathematics at Imperial College London and my MSc in Statistical Science at the University of Oxford, where my master's thesis: "Variational Inference for Bayesian Nonparametric Manifold Learning" was supervised by Judith Rousseau and Paul Rosa.
+Previously, I obtained my BSc in Mathematics at Imperial College London and my MSc in Statistical Science at the University of Oxford, where my master's thesis: "Variational Inference for Bayesian Nonparametric Manifold Learning" was supervised by Judith Rousseau and Paul Rosa. You can find my CV [here](/assets/pdf/leo_zhang_CV-1.pdf).
 
 If you have any questions or wish to discuss research, feel free to send me an email!
