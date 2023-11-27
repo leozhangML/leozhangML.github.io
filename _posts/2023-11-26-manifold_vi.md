@@ -5,7 +5,7 @@ date:   2023-11-26 16:40:16
 description: an introduction to my master's thesis
 ---
 
-This is an excert from my master's thesis, for which the code can be found [here](https://github.com/leozhangML/manifold_vi).
+This is an excerpt from my master's thesis, for which the code can be found [here](https://github.com/leozhangML/manifold_vi).
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +24,7 @@ Another area of manifold learning is density estimation.  While density estimati
 
 In this dissertation, however, we are interested in the Bayesian nonparametric approach to density estimation.  The standard way this is done is through Dirichlet process mixtures - this specifies our density by an infinite mixture model, with a Dirichlet process prior placed on the mixture’s parameters.  Bayesian inference then provides an estimate of the true density.  While such models have long been studied in the literature (Neal [2000]), they mainly assume that the distribution of our data is supported on $$\mathbb{R}^D$$ instead of possessing some low-dimensional structure.  Hence, these approaches have been shown to struggle in recovering the density of manifold-distributed data as they are unable to capture the curvature and (low) dimensionality of such structures - see Mukhopadhyay et al.[2020].
 
-The recent paper Berenfeld et al. [2022] overcomes these limitation through introducing a new family of Dirichlet process mixtures, for which they show very good empirical performance.  Theoretical guarantees are also provided to show that such mixtures are able to converge to the "true" distribution of the data, under regularity conditions.  Along with the interpretability of such methods compared to black-box deep generative models, this provides a compelling solution to density estimation under the manifold hypothesis.  The main drawback, however,is that inference - through MCMC sampling - is computationally expensive and fails to scale to datasets with dimension greater than two. This prevents the use of such methods beyond toy examples.
+The recent paper Berenfeld et al. [2022] overcomes these limitation through introducing a new family of Dirichlet process mixtures, for which they show very good empirical performance.  Theoretical guarantees are also provided to show that such mixtures are able to converge to the "true" distribution of the data, under regularity conditions.  Along with the interpretability of such methods compared to black-box deep generative models, this provides a compelling solution to density estimation under the manifold hypothesis.  The main drawback, however, is that inference - through MCMC sampling - is computationally expensive and fails to scale to datasets with dimension greater than two. This prevents the use of such methods beyond toy examples.
 
 This motivates the main contributions of this dissertation.  We present a variational inference algorithm to provide approximate Bayesian inference for Berenfeld et al. [2022] - see Figure 1. This allows us to scale such methods to higher-dimensional datasets, for which we empirically observe only a slight drop in accuracy. We also attempt to give theoretical guarantees for the convergence rate of an oracle variational approximation to the true parameters, in order to provide justification for the use of variational inference.  We note that while we were unable to finish the proof before the dissertation deadline, our proof only requires one final technical step.
 
