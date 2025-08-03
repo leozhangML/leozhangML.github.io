@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  an introduction to discrete diffusion and time-inhomogeneous CTMCs
-date:   2025-08-23 16:40:16
+date:   2025-08-03 16:40:16
 description: or, why does no one talk about time-inhomogeneous Markov processes?
 ---
 
