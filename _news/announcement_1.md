@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [preprint](https://arxiv.org/abs/2509.23265) *CREPE: Controlling Diffusion with Replica Exchange* is out now, showing Parallel Tempering can be a very strong alternative over SMC for reward tilting.
+Our [preprint](https://arxiv.org/abs/2509.23265): *CREPE: Controlling Diffusion with Replica Exchange* is out now.
