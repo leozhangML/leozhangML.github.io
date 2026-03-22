@@ -18,7 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a second-year DPhil student in the Department of Statistics (StatML CDT) at the University of Oxford, supervised by [Rob Cornish](https://jrmcornish.github.io/), [Saifuddin Syed](https://www.saifsyed.com/) and [Yee Whye Teh](https://www.stats.ox.ac.uk/~teh/).
 
-My research interests currently revolve around the mathematical understanding of deep generative models, and their application to scientific problems, using tools from geometry and category theory. In particular, I am interested in de novo molecular generation and related biochemical problems. 
+My research interests currently revolve around the mathematical understanding of deep generative models and neural networks, and their application to scientific problems, using tools from geometry and category theory. In particular, I am interested in de novo molecular generation and related biochemical problems.
+
+During my DPhil, I have interned at [SandboxAQ](https://www.sandboxaq.com/) (June 2025 - March 2026) where I worked on small molecule optimisation.
 
 Previously, I obtained my BSc in Mathematics at Imperial College London and my MSc in Statistical Science at the University of Oxford, where my master's thesis: "Variational Inference for Bayesian Nonparametric Manifold Learning" was supervised by [Paul Rosa](https://paulrosa.owlstown.net/) and [Judith Rousseau](https://scholar.google.com/citations?user=3SdlafgAAAAJ&hl=en). You can find my CV [here](/assets/pdf/leo_zhang_cv.pdf).
 
